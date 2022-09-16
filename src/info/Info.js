@@ -1,4 +1,3 @@
-import self from "../img/self.png";
 import project1 from "../img/mock1.jpeg";
 import mock2 from "../img/mock2.png";
 import mock3 from "../img/mock3.jpeg";
@@ -26,7 +25,6 @@ export const info = {
   lastName: "Zhang",
   initials: "js", // the example uses first and last, but feel free to use three or more if you like.
   position: "a Full Stack Developer",
-  selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
   miniBio: [
@@ -116,9 +114,9 @@ export const info = {
       image: project1,
     },
     {
-      title: "biquardris",
-      live: "https://github.com/BosenZh/BosenZh.git",
-      source: "https://github.com/BosenZh/BosenZh.git",
+      title: "Biquadris",
+      live: "https://github.com/BosenZh/Biquardris",
+      source: "https://github.com/BosenZh/Biquardris",
       image: mock2,
     },
     {
@@ -126,18 +124,6 @@ export const info = {
       live: "https://github.com/BosenZh/mini-twitter",
       source: "https://github.com/BosenZh/mini-twitter",
       image: mock3,
-    },
-    {
-      title: "Project 4",
-      live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
-      image: mock4,
-    },
-    {
-      title: "Project 5",
-      live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
-      image: mock5,
     },
   ],
 };
